@@ -144,7 +144,7 @@ namespace GitUI.CommandsDialogs.SettingsDialog
         static void HighlightNode(TreeNode treeNode, bool highlight)
         {
             treeNode.ForeColor = highlight ? Color.White : Color.Black;
-            treeNode.BackColor = highlight ? Color.SeaGreen : new Color();
+            treeNode.BackColor = highlight ? Color.SeaGreen : Color.Black;
         }
 
         private void ResetAllNodeHighlighting()

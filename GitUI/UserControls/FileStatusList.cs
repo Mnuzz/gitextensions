@@ -177,7 +177,7 @@ namespace GitUI
                 color = SystemColors.WindowText;
             e.DrawFocusRectangle();
 
-            e.Graphics.FillRectangle(Brushes.White, e.Bounds.Left, e.Bounds.Top, ImageSize, e.Bounds.Height);
+            e.Graphics.FillRectangle(Brushes.Black, e.Bounds.Left, e.Bounds.Top, ImageSize, e.Bounds.Height);
 
             int centeredImageTop = e.Bounds.Top;
             if ((e.Bounds.Height - ImageSize) > 1)

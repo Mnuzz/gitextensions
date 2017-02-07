@@ -172,7 +172,7 @@
             // 
             // _RevisionHeader
             // 
-            this._RevisionHeader.BackColor = System.Drawing.SystemColors.ControlLight;
+            this._RevisionHeader.BackColor = System.Drawing.SystemColors.Control;
             this._RevisionHeader.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this._RevisionHeader.ContextMenuStrip = this.commitInfoContextMenuStrip;
             this._RevisionHeader.Dock = System.Windows.Forms.DockStyle.Fill;

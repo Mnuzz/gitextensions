@@ -26,7 +26,7 @@ namespace GitUI.CommandsDialogs.AboutBoxDialog
         private TextBox getNewTextBox()
         {
             TextBox tb = new TextBox();
-            tb.BackColor = Color.White;
+            tb.BackColor = Color.Black;
             tb.Dock = DockStyle.Fill;
             tb.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(0)));
             tb.Margin = new System.Windows.Forms.Padding(0);

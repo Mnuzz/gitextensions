@@ -105,7 +105,7 @@ namespace GitUI.CommandsDialogs.BrowseDialog.DashboardControl
             {
                 RepositoriesGrid.ReadOnly = false;
                 RepositoriesGrid.Enabled = true;
-                RepositoriesGrid.BackgroundColor = Color.White;
+                RepositoriesGrid.BackgroundColor = Color.Black;
                 _NO_TRANSLATE_RssFeed.Enabled = false;
                 repositoryCategory.CategoryType = RepositoryCategoryType.Repositories;
             }

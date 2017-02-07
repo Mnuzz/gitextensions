@@ -1356,13 +1356,13 @@ namespace GitUI
             {
                 e.Graphics.FillRectangle(_selectedItemBrush, e.CellBounds);
             }
-            else if (ShouldHighlightRevisionByAuthor(revision))
+            else if (false)//(ShouldHighlightRevisionByAuthor(revision))
             {
                 e.Graphics.FillRectangle(_authoredRevisionsBrush, e.CellBounds);
             }
             else
             {
-                e.Graphics.FillRectangle(Brushes.White, e.CellBounds);
+                e.Graphics.FillRectangle(Brushes.Black, e.CellBounds);
             }
 
             Color foreColor;
